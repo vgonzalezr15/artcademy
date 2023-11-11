@@ -1,0 +1,115 @@
+body {
+  background-color: #f2f2f2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.añadir-alumno,
+.login-form {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  padding: 40px;
+  width: 400px;
+  text-align: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.login-form h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.añadir-alumno form,
+.login-form form {
+  display: flex;
+  flex-direction: column;
+}
+
+.añadir-alumno input,
+.login-form input {
+  padding: 15px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 18px;
+}
+
+.añadir-alumno input[type="submit"],
+.login-form input[type="submit"] {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  padding: 15px;
+  font-size: 20px;
+}
+
+.añadir-alumno input[type="submit"]:hover,
+.login-form input[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+.contenedor-general {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.contenedor-general .formulario form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100%;
+}
+
+.contenedor-general .formulario form input {
+  margin-bottom: 10px;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th,
+td {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+.contenedor {
+  display: flex;
+  flex-direction: column;
+}
+
+.menu {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  background-color: black;
+}
+
+.menu ul {
+  display: flex;
+  justify-content: space-around;
+}
+
+.menu ul li {
+  text-decoration: none;
+  list-style: none;
+}
+
+.menu ul li a {
+  text-decoration: none;
+  color: white;
+}
